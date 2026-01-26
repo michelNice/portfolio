@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#liquid-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: block;
+}
+
+.about{
+    background-image:url(/img/about.avif),linear-gradient(#000,#000);
+    height: 50vh;
+    width: 100%;
+}
+
