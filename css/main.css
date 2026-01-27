@@ -15,8 +15,10 @@ html, body {
 }
 
 .about {
-  background-image: url(/img/about.avif), linear-gradient(rgba(158, 147, 147, 0.511), rgba(0, 0, 0, 0.533));
-  height: 50vh;
+  background-image: url("/img/about.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
