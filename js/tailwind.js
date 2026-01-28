@@ -8,7 +8,17 @@
                         "background-light": "#f5f8f8",
                         "background-dark": "#0f172a",
                         "surface-dark": "#1e293b",
+
+
+                         skills: {
+                        js:"#f7df1e",
+                        sass:"#cc6699",
+                        react:"#61dafb",
+                        node:"#3c873a"
+                     },
                     },
+
+                   
                     fontFamily: {
                         "display": ["Space Grotesk", "sans-serif"],
                         "body": ["Inter", "sans-serif"],
