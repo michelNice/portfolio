@@ -5,8 +5,8 @@ html, body {
   overflow-x: hidden;
 }
 
-html {
-  scroll-behavior: smooth;
+section {
+  padding: 2rem 0;
 }
 
 #liquid-canvas {
@@ -24,6 +24,10 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.btn-form {
+  margin: 2rem 0;
 }
 
 @media (max-width: 45rem) {

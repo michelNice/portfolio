@@ -5,6 +5,10 @@ html, body {
   overflow-x: hidden;
 }
 
+section{
+  padding: 2rem 0;
+}
+
 
 #liquid-canvas {
   position: fixed;
@@ -17,21 +21,26 @@ html, body {
 
 .about{
       background-image:url("/img/about.avif");
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
   width: 100%;
+
 }
+
+.btn-form{
+  margin: 2rem 0;
+}
+
+
+
 @media(max-width:45rem){
 
   .logo{
     font-size: 1rem;
 }  
 }
-
-
 
 .glass{
   background: linear-gradient(180deg, #1f5b6b 0%, #163b45 100%);
