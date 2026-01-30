@@ -21,3 +21,10 @@ mobileNavLinks.forEach(link => {
     menuIcon.classList.remove('fa-xmark');
   });
 });
+
+
+
+
+
+
+
