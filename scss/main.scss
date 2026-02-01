@@ -5,9 +5,7 @@ html, body {
   overflow-x: hidden;
 }
 
-section{
-  padding: 2rem 0;
-}
+section,header{padding-bottom: 2rem ;}
 
 
 #liquid-canvas {
@@ -20,20 +18,17 @@ section{
 }
 
 .about{
-      background-image:url("/img/about.avif");
+  background-image:url("/img/about.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   width: 100%;
 
 }
 
-.btn-form{
-  margin: 2rem 0;
-}
+.btn-form{margin: 2rem 0;}
 
-
+.glass{background: linear-gradient(180deg, #1f5b6b 0%, #163b45 100%);}
 
 @media(max-width:45rem){
 
@@ -42,9 +37,7 @@ section{
 }  
 }
 
-.glass{
-  background: linear-gradient(180deg, #1f5b6b 0%, #163b45 100%);
-}
+
 
 
 
