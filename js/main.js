@@ -26,5 +26,44 @@ mobileNavLinks.forEach(link => {
 
 
 
+	$('.slider-cradle').click(function(){
+  $(this).toggleClass('is-transitioned');
+});
 
 
+
+const buttonEng = document.querySelector('.option-1')
+const buttonPt = document.querySelector('.option-2')
+
+const useChange = function (lan){
+  switch(lan){
+
+    case 'english':
+
+    return useEnglish()
+
+    case 'portugues':
+
+    return usePortugues()
+  }
+}
+
+
+const useEnglish = () => ({
+
+     testText:'about'
+})
+
+const usePortugues = () => ({
+
+    testText:'sobre'
+})
+
+
+buttonEng.addEventListener('click', ()=> {
+
+})
+buttonPt.addEventListener('click',()=> {
+ 
+
+})
