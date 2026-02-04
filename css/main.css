@@ -5,6 +5,16 @@ html, body {
   overflow-x: hidden;
 }
 
+
+body:lang(it)    *:not(:lang(it)) ,
+body:lang(en-GB) *:not(:lang(en-GB))
+  {
+  display: none;
+  }
+
+
+
+
 section, header {
   padding-bottom: 2rem;
 }

@@ -34,11 +34,17 @@ section,header{padding-bottom: 2rem ;}
 
   .logo{
     font-size: 1rem;
-}  
+  }  
+
+
+ 
 }
 
 
-
+.option-1, .option-2 {
+  cursor: pointer; 
+  user-select: none; 
+}
 
 
 
