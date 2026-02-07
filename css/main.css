@@ -5,16 +5,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
-body:lang(it)    *:not(:lang(it)) ,
-body:lang(en-GB) *:not(:lang(en-GB))
-  {
-  display: none;
-  }
-
-
-
-
 section, header {
   padding-bottom: 2rem;
 }
@@ -49,6 +39,11 @@ section, header {
     font-size: 1rem;
   }
 }
+.option-1, .option-2 {
+  cursor: pointer;
+  user-select: none;
+}
+
 .flex-cradle {
   display: flex;
   justify-content: center;
@@ -98,6 +93,27 @@ section, header {
 }
 .slider-cradle.is-transitioned .handle {
   transform: translateX(45px);
+}
+
+@media (max-width: 768px) {
+  .slider-cradle {
+    width: 65px;
+    height: 32px;
+    border-radius: 3px;
+  }
+  .slider-cradle div {
+    line-height: 32px;
+    font-size: 12px;
+  }
+  .slider-cradle .handle {
+    width: 29.44px;
+    height: 29.44px;
+    top: 1.28px;
+    left: 1.28px;
+  }
+  .slider-cradle.is-transitioned .handle {
+    transform: translateX(33px);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

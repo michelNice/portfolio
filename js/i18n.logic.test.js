@@ -6,6 +6,7 @@ describe('i18n logic', () => {
 
     expect(texts.Nome).toBe('Name')
     expect(texts.about).toBe('About')
+    expect(texts.skills).toBe('Skills')
   })
 
   test('Portugues translations', ()=> {
@@ -14,6 +15,7 @@ describe('i18n logic', () => {
 
     expect(texts.Nome).toBe('Nome')
     expect(texts.about).toBe('Sobre')
+    expect(texts.skills).toBe('Habilidades')
   })
 
   test('check langueage in english', ()=> {
