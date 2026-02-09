@@ -13,7 +13,7 @@ export const useEnglish = () => ({
     projectOne:'Trevo Supermercado is a full-stack web application built with React and SCSS on the frontend, and Node.js, Express, and MongoDB on the backend, featuring a modern and responsive interface. text em portugues',
     projectTwo:'This is my dance portfolio and my first project built with React, focused on learning the framework while creating a responsive and visually engaging website.',
     projectTree:'This was my first freelance side project, built using HTML and CSS, focused on delivering a clean and responsive website for the client. portugues',
-    projectFour:'A modern and responsive web project built with JavaScript, React, and SASS. portues'
+    projectFour:'A modern and responsive web project built with JavaScript, React, and SASS.'
 })
 
 export const usePortugues = () => ({
