@@ -11,7 +11,7 @@ async  function test(){
     const {data,error} = await supabaseClient
     .from('translations')
     .select("*")
-    .limit(1)
+    
 
 
     console.log(data)
@@ -20,3 +20,4 @@ async  function test(){
 }
 
 test()
+
