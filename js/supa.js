@@ -1,23 +1,25 @@
+import { createClient } from '@supabase/supabase-js'
+
 const supabaseUrl = 'https://qtphhhtqstcphwcnewdc.supabase.co'
 const supabaseKey = 'sb_publishable_diJO977_qHHwD6dvn1CflA_9JzkgsTx'
-const supabaseClient = window.supabase.createClient(
-   supabaseUrl,
-   supabaseKey
 
-);
+const supabaseClient = createClient(supabaseUrl, supabaseKey)
 
-async  function test(){
+export async function test(lang) {
 
-    const {data,error} = await supabaseClient
+  const { data, error } = await supabaseClient
     .from('translations')
-    .select("*")
-    
+    .select('key, value')
+    .eq('lang', lang)
 
+  if (error) {
+    throw error
+  }
 
-    console.log(data)
+  const result = data.reduce((acc, obj) => {
+    acc[obj.key] = obj.value
+    return acc
+  }, {})
 
-    console.log(error)
+  return result
 }
-
-test()
-

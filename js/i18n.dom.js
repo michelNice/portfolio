@@ -5,9 +5,11 @@ const buttonEng = document.querySelector('.option-2')
 
 let language = 'en'
 
-function changeLanguage(lang) {
+async function changeLanguage(lang) {
   language = lang
-  const texts = getTexts(lang)
+  const texts = await getTexts(lang)
+
+   console.log("TEXTS:", texts) 
 
   document.querySelectorAll('[data-key]').forEach(el => {
     const key = el.dataset.key
