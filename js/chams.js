@@ -35,15 +35,19 @@ const  teamsn = Playoffs.flatMap(league => {
 const clone = teamsn.slice()
 
 function match(){
+    
 
-    while(clone.length >= 0){
-
+    while(clone.length >= 1){
+        
+        /*
         const teamA = clone[0]
 
         console.log(teamA)
+        break
+        */
 
     }
-
+    
 }
 
 
