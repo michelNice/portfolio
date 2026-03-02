@@ -12,8 +12,6 @@ export async function test(lang){
     .from('translations')
     .select('key,value').eq('lang', lang)
     
-
-
    const result = data.reduce((accumulator,obj)=> {
     accumulator[obj.key] = obj.value
 
