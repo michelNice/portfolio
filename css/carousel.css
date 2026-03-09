@@ -10,12 +10,10 @@
 .swiper-button-next {
   right: -10px;
 }
-
 .swiper-slide {
   display: flex;
   height: auto;
 }
-
 .project-card {
   height: 100%;
   display: flex;
