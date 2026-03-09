@@ -115,5 +115,27 @@ section, header {
     transform: translateX(33px);
   }
 }
+.swiper {
+  padding: 0 50px 60px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #22d3ee;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background: #64748b;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #22d3ee;
+}
 
 /*# sourceMappingURL=main.css.map */
