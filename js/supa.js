@@ -17,10 +17,6 @@ export async function test(lang){
 
     return accumulator
    }, {});
-
-   console.log(result)
-   console.log('Error',error)
-
    return result
 }
 

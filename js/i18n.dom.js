@@ -18,9 +18,9 @@ async function changeLanguage(lang) {
   })
 
   if(lang === 'pt'){
-      buttonCV.href = '/img/Michel_Oliveira_CV_PT.pdf'
+      buttonCV.href = 'img/CV-PT.pdf'
   }else{
-    buttonCV.href = '/img/Michel_Oliveira_CV_EN.pdf'
+    buttonCV.href = '/img/CV-EN.pdf'
 
   }
 }

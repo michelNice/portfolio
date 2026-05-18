@@ -52,7 +52,9 @@ section, header {
   width: 100%;
   font-family: Helvetica;
 }
-
+.bg-skills-typescript{
+  background:#3178c6;
+}
 .slider-cradle {
   display: flex;
   width: 90px;
